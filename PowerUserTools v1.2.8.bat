@@ -52,15 +52,13 @@ cls
 set "choice="
 echo.
 echo 1 - Offline Insider Enroll
-echo 2 - ViVe Tool Whether Widgit
 echo.
-echo 3 - Quit without making any changes
+echo 2 - Quit without making any changes
 echo.
 set /p choice="Choice: "
 echo.
 if /I "%choice%"=="1" goto :OFFLINE_INSIDER_ENROLL
-if /I "%choice%"=="2" goto :VIVE_TOOL
-if /I "%choice%"=="3" goto :EOF
+if /I "%choice%"=="2" goto :EOF
 goto :APPS
 
 :COMMANDS
@@ -69,11 +67,13 @@ set "choice="
 echo.
 echo 1 - System Info
 echo 2 - Test Signing
+echo 3 - ViVe Tool Add Whether Widget
 echo.
 set /p choice="Choice: "
 echo.
 if /I "%choice%"=="1" goto :SYSTEM_INFO
 if /I "%choice%"=="2" goto :TEST_SIGNING
+if /I "%choice%"=="3" goto :VIVE_TOOL
 goto :COMMANDS
 
 :OFFLINE_INSIDER_ENROLL (
@@ -468,7 +468,9 @@ vivetool addconfig 36553793 2
 vivetool addconfig 36226054 2
 vivetool addconfig 36226456 2
 echo.
-Done.
+echo.
+echo Done.
+echo.
 echo Press any key to return to main menu.
 pause >nul
 goto :START_SCRIPT

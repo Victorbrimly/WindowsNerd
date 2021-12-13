@@ -1,4 +1,5 @@
 # XPnerd
-This respitory is for my projects. Viruses and Software that I have tested and like will appear here. If you have any recommendations or Viruses that you created and you want me to test it, Send it to my email at: xpnerd@xpnerd.onmicrosoft.com
+Respitory is for Software and Projects. If you have any questions, recommendations etc, send it to my email below.
+Email: xpnerd@xpnerd.onmicrosoft.com
 ### Notice
-I do not accept any sponser/ad etc. Any ad or something not related to my projects etc will be ignored or blocked.
+Any spam, sponsers etc may be ignored or Blocked.
